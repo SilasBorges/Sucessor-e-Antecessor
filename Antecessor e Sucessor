@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main(){
+    int Num, Num2, Num3;
+
+    printf("============== Antecessor e Sucessor =================\n");
+
+    printf("Digite um numero:\n");
+    scanf("%d", &Num);
+
+    Num2 = Num - 1;
+    Num3 = Num + 1;
+
+    printf("O numero antecessor do numero digitado eh: %d \n", Num2);
+
+    printf("O numero sucessor do numero digitado eh: %d \n", Num3);
+
+
+    system("pause");
+    return 0;
+
+}
